@@ -1,0 +1,76 @@
+module.exports = {
+    head1: {
+        fontSize: 30,
+        color :'black',
+        textAlign: 'center',
+        fontWeight: '500',
+    },
+    head2: {
+        fontSize: 20,
+        color :'black',
+        textAlign: 'center',
+    },
+    formgroup:{
+        display: 'flex',
+        flexDirection: 'coloumn',
+        width: '100%',
+        marginVertical: 6,
+      },
+      label: {
+        fontSize: 17,
+        color: '#02877b',
+        marginLeft: 15,
+        marginBottom: 3,
+      },
+      input: {
+        backgroundColor: "#c3ebe8",
+        borderRadius: 20,
+        padding: 10,
+        // paddingHorizontal: 10,
+        // paddingVertical: 5,
+        marginLeft:10,
+        marginRight:10,
+      },
+      link: {
+        color: '#02877b',
+        fontSize: 15,
+      },
+      link2: {
+        color: 'grey',
+        fontSize: 15,
+        textAlign: 'center',
+        marginVertical: 10,
+      },
+      input1: {
+        backgroundColor: "#c3ebe8",
+        borderRadius: 20,
+        //padding: 10,
+        // paddingHorizontal: 10,
+        // paddingVertical: 5,
+        marginLeft:10,
+        marginRight:10,
+        height: 60,
+        textAlignVertical: 'top',
+      },
+      errormessage: {
+        color: 'White',
+        fontSize: 15,
+        textAlign: 'center',
+        backgroundColor: '#F50057',
+        padding: 5,
+        borderRadius: 10,
+        marginLeft:10,
+        marginRight:10,
+      },
+      bwmessage: {
+        color: 'white',
+        backgroundColor: 'black',
+        fontSize: 15,
+        textAlign: 'center',
+        padding: 5,
+        borderRadius: 5,
+        marginLeft:10,
+        marginRight:10,
+    }
+
+}
